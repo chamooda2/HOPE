@@ -3,84 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HOPE - Account Deletion</title>
+  <title>HOPE - Policies</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9fafb;
-      color: #333;
+    body { 
+      font-family: Arial, sans-serif; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      margin: 0; 
+      background: #f9fafb; 
+      color: #333; 
     }
-    header {
-      background: #4a90e2;
-      color: #fff;
-      padding: 1rem;
+    .container {
       text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 2rem;
       background: #fff;
-      border-radius: 10px;
+      padding: 2rem;
+      border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    h1, h2 {
-      color: #4a90e2;
-    }
-    ul {
+    h1 { color: #4a90e2; margin-bottom: 1.5rem; }
+    a {
+      display: block;
       margin: 1rem 0;
-      padding-left: 1.5rem;
-    }
-    .warning {
-      background: #ffe6e6;
-      border-left: 6px solid #ff4d4d;
-      padding: 1rem;
-      margin: 1.5rem 0;
-      border-radius: 6px;
-      color: #b30000;
+      padding: 0.8rem 1.2rem;
+      background: #4a90e2;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
       font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #357abd;
     }
     footer {
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-      background: #f1f1f1;
-      color: #666;
+      margin-top: 1.5rem;
       font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>HOPE - Account Deletion Process</h1>
-  </header>
-  <main>
-    <h2>How to Delete Your Account</h2>
-    <p>
-      If you would like to delete your HOPE account, you can do so directly from within the app.
-      Follow these steps:
-    </p>
-    <ul>
-      <li>Open the <strong>side drawer</strong> menu inside the HOPE app.</li>
-      <li>Select <strong>Account Deletion</strong> from the menu options.</li>
-      <li>You will be taken to the <strong>Account Deletion screen</strong>.</li>
-      <li>On this screen, you’ll see a warning message and the conditions of deletion.</li>
-      <li>Tap the <strong style="color: red;">Delete Account</strong> button to proceed.</li>
-      <li>Once confirmed, your account will be permanently deleted and you will be <strong>signed out</strong> of the app.</li>
-    </ul>
-
-    <div class="warning">
-      ⚠️ Please note: Account deletion is permanent. All your data associated with HOPE will be removed and cannot be restored.
-    </div>
-
-    <p>If you face any issues while deleting your account, please contact our support team at:</p>
-    <p><a href="mailto:support@hopeapp.com">support@hopeapp.com</a></p>
-  </main>
-  <footer>
-    &copy; 2025 HOPE App. All rights reserved.
-  </footer>
-</body>
-</html>
+  <div class="container">
+    <h1>HOPE App Policies</h1>
+    <a href="privacy.html">📜 Privacy Policy</a>
+    <a href="delete.html">🗑️ Account Deletion</a>
+    <footer>
+      &copy;
